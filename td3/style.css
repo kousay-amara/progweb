@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #dbeafe;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+#map {
+    height: 350px;
+}
+
+.actuel, .jour {
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.grille {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.temp {
+    font-size: 32px;
+}
+
+.erreur {
+    color: red;
+}
